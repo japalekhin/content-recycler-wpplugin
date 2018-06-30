@@ -84,7 +84,7 @@ class Main {
 
     static function settingsSkip($value = null) {
         (is_null($value) || !is_array($value)) || update_option(self::optionKeySkip, $value);
-        if (!is_array($skip = get_option(self::optionKeySkip, ['1', 'asdf', '7']))) {
+        if (!is_array($skip = get_option(self::optionKeySkip, []))) {
             return [];
         }
         return $skip;
