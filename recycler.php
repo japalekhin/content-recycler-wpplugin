@@ -1,32 +1,33 @@
 <?php
 /* * ************************************************************************ *\
 
-  Plugin Name:    Post Recycler
+  Plugin Name:    Content Recycler
   Description:    Recycle old posts to the top of your blog automatically. Useful for occassional bloggers and affiliate marketers.
-  Plugin URI:     https://jap.alekhin.io/post-recycler-wordpress-plugin-affiliate-marketers
+  Plugin URI:     https://jap.alekhin.io/content-recycler-wordpress-plugin-affiliate-marketers
   Version:        1.0.0
   Author:         Japa Alekhin Llemos
   Author URI:     https://jap.alekhin.io
-  Text Domain:    post-recycler
+  Text Domain:    content-recycler
   License:        GPLv3
   License URI:    https://www.gnu.org/licenses/gpl.html
 
  * ************************************************************************** *
 
-  Post Recycler is free software: you can redistribute it and/or modify it under
-  the terms of the GNU General Public License as published by the Free Software
-  Foundation, either version 3 of the License, or any later version.
+  Content Recycler is free software: you can redistribute it and/or modify it
+  under the terms of the GNU General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or any later version.
 
-  Post Recycler is distributed in the hope that it will be useful, but WITHOUT
-  ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
-  FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+  Content Recycler is distributed in the hope that it will be useful, but
+  WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+  FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+  details.
 
   You should have received a copy of the GNU General Public License along with
-  Post Recycler. If not, see https://www.gnu.org/licenses/gpl.html.
+  Content Recycler. If not, see https://www.gnu.org/licenses/gpl.html.
 
 \* ************************************************************************** */
 
-namespace Alekhin\Recycler;
+namespace Alekhin\ContentRecycler;
 
 use DateTime;
 use DateTimeZone;
@@ -118,7 +119,7 @@ class Main {
 
         self::doRecycle();
 
-        wp_redirect(admin_url('tools.php?page=post-recycler'));
+        wp_redirect(admin_url('tools.php?page=content-recycler'));
         exit;
     }
 
@@ -174,11 +175,11 @@ class Main {
 }
 
 add_action('admin_menu', function() {
-    add_submenu_page('tools.php', 'Post Recycler', 'Post Recycler', 'edit_others_posts', 'post-recycler', function() {
+    add_submenu_page('tools.php', 'Content Recycler', 'Content Recycler', 'edit_others_posts', 'content-recycler', function() {
         ?>
         <div class="wrap recyclerSettings">
-            <h1 class="wp-heading-inline">Post Recycler</h1>
-            <a href="<?php echo admin_url('tools.php?page=post-recycler&action=recycle-now'); ?>" class="page-title-action">Recycle Now</a>
+            <h1 class="wp-heading-inline">Content Recycler</h1>
+            <a href="<?php echo admin_url('tools.php?page=content-recycler&action=recycle-now'); ?>" class="page-title-action">Recycle Now</a>
             <hr class="wp-header-end" />
 
             <form action="<?php echo $_SERVER['REQUEST_URI']; ?>" method="POST">
@@ -255,7 +256,7 @@ add_action('admin_menu', function() {
 });
 
 add_action('current_screen', function () {
-    if (get_current_screen()->id !== 'tools_page_post-recycler') {
+    if (get_current_screen()->id !== 'tools_page_conten-recycler') {
         return;
     }
     Main::postUpdateSettings();

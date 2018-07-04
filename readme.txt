@@ -1,6 +1,6 @@
-=== Post Recycler ===
+=== Content Recycler ===
 Contributors: japalekhin
-Donate link: https://jap.alekhin.io/post-recycler-wordpress-plugin-affiliate-marketers
+Donate link: https://jap.alekhin.io/content-recycler-wordpress-plugin-affiliate-marketers
 Tags: post, posts, custom post type, recycle, reuse, affiliate marketing, schedule, automatic, publish, old posts
 Requires at least: 4.6
 Tested up to: 4.9.6
@@ -9,13 +9,13 @@ Stable tag: 1.0.0
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl.html
 
-Post Recycler, as the name implies, recycles your old posts so they show up on the blog page as if they were newly published.
+Content Recycler, as the name implies, recycles your old content so they show up on the blog page as if they were newly published.
 
 == Description ==
 
 If enabled, this plugin checks if you haven't posted anything in a while and reuses the oldest post by updating it's published date. This is useful if you go on a vacation or simply become too busy to update your site. Making your blog page (usually the homepage) always "fresh" from the SEO and users' point of view.
 
-[Support development of Post Recycler](https://jap.alekhin.io/post-recycler-wordpress-plugin-affiliate-marketers "Support the development of Post Recycler WordPress Plugin") WordPress plugin by [Alekhin](https://jap.alekhin.io "Japa Alekhin Llemos")
+[Support development of Content Recycler](https://jap.alekhin.io/content-recycler-wordpress-plugin-affiliate-marketers "Support the development of Content Recycler WordPress Plugin") WordPress plugin by [Alekhin](https://jap.alekhin.io "Japa Alekhin Llemos")
 
 Affiliate marketers could also benefit from this functionality, aside from the SEO and blog page freshness, by putting the old affiliate links back to the front, effectively recycling content.
 
@@ -29,9 +29,9 @@ A manual "Recycle Now" button is also provided. And finally, posts can be skippe
 
 Just install like you normally do with any WordPress plugin.
 
-1. Upload `post recycler` to the `/wp-content/plugins/` directory
+1. Upload `content recycler` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the `Plugins` menu in WordPress Admin
-1. Customize your settings through the `Tools » Post Recycler` menu and enable.
+1. Customize your settings through the `Tools » Content Recycler` menu and enable.
 1. Done!
 
 == Frequently Asked Questions ==
@@ -40,7 +40,7 @@ Just install like you normally do with any WordPress plugin.
 
 You're probably seeing the initial release so there's no F.A.Q. yet.
 
-If you have any questions just go to the [plugin site](https://jap.alekhin.io/post-recycler-wordpress-plugin-affiliate-marketers "Post Recycler WordPress Plugin by Alekhin") and leave a comment.
+If you have any questions just go to the [plugin site](https://jap.alekhin.io/content-recycler-wordpress-plugin-affiliate-marketers "Content Recycler WordPress Plugin by Alekhin") and leave a comment.
 
 == Upgrade Notice ==
 
