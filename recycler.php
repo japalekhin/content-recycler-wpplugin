@@ -1,5 +1,5 @@
 <?php
-/* * ************************************************************************ *
+/* * ************************************************************************ *\
 
   Plugin Name:    Post Recycler
   Description:    Recycle old posts to the top of your blog automatically. Useful for occassional bloggers and affiliate marketers.
@@ -24,7 +24,7 @@
   You should have received a copy of the GNU General Public License along with
   Post Recycler. If not, see https://www.gnu.org/licenses/gpl.html.
 
- * ************************************************************************** */
+\* ************************************************************************** */
 
 namespace Alekhin\Recycler;
 
