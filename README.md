@@ -10,6 +10,8 @@ License: [GPLv3](https://www.gnu.org/licenses/gpl.html)
 
 Content Recycler, as the name implies, recycles your old posts so they show up on the blog page as if they were newly published.
 
+[Content Recycler on WordPress Plugins Repository](https://wordpress.org/plugins/content-recycler/)
+
 ## Description
 
 If enabled, this plugin checks if you haven't posted anything in a while and reuses the oldest post by updating it's published date. This is useful if you go on a vacation or simply become too busy to update your site. Making your blog page (usually the homepage) always "fresh" from the SEO and users' point of view.
