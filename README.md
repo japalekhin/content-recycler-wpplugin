@@ -2,8 +2,8 @@
 Contributors: [@japalekhin](https://profiles.wordpress.org/japalekhin)
 Donate link: [Support Content Recycler](https://jap.alekhin.io/content-recycler-wordpress-plugin-affiliate-marketers)
 Tags: post, posts, custom post type, recycle, reuse, affiliate marketing, schedule, automatic, publish, old posts
-Requires at least: 4.6
-Tested up to: 4.9.6
+Requires at least: 4.9
+Tested up to: 4.9.7
 Requires PHP: 7.2
 Stable tag: 1.0.0
 License: [GPLv3](https://www.gnu.org/licenses/gpl.html)
@@ -40,6 +40,10 @@ Just install like you normally do with any WordPress plugin.
 You're probably seeing the initial release so there's no F.A.Q. yet.
 
 If you have any questions just go to the [plugin site](https://jap.alekhin.io/content-recycler-wordpress-plugin-affiliate-marketers "Content Recycler WordPress Plugin by Alekhin") and leave a comment.
+
+## Screenshots
+![Administration Screen](assets/screenshot-1.jpg)
+_Administration Screen: Configure the behavior of the recycler plugin._
 
 ## Changelog
 
